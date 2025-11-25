@@ -1,0 +1,130 @@
+ An Online bookshop sells different things. Currently it has books, magazines and CDs.
+ All these products have some common types of information such as price, title etc.. Also
+ each product may have specific information such as author, number of pages, artists, type
+ etc.. ) .
+
+ The registered customers can place orders for products. The ordered products are usually
+ delivered together, but sometimes several shipments are needed when the store runs out
+ of products for a while. An order may contain several products.
+ 
+ The products are delivered to personal customers and payments are done at the delivery.
+ The business customers will get their orders directly, and they will be sent an invoice
+ afterwards. Both customer types can make the payment also by using credit card. When
+ registering, a customer is prompted to give contact and personal information needed for
+ authentication, delivery of orders and invoicing.
+
+ The bookshop system must be able to add and remove a customer, add new product and
+ view/update existing product, make or remove an order and view existing order, view
+ and generate reports on the products.
+
+
+Do the Noun Verb analysis to identify the classes in the description.
+
+(a) Identify all the Nouns which can be potential classes
+
+	1. Online book shop
+	2. Books
+	3. Magazines
+	4. CDs
+	5. Products
+	6. Price
+	7. Title
+	8. Author
+	9. Number of pages
+	10.Artists
+	11.Type
+	12.Customers
+	13.Orders
+	14.Shipments
+	15.Store
+	16.Personal customers
+	17.Business customers
+	18.Invoice
+	19.Payment
+	20.Credit card
+	21.Contact information
+	22.Personal information
+	23.Authentication
+	24.Invoicing
+	25.Reports
+	26.Delivery
+
+(b) Identify the set of potential classes, show clearly how the nouns were rejected using
+ the five rules.
+
+	The five rules for rejecting nouns:
+
+	1)Redundant nouns- Nouns that refer to the same concept.
+	2)An event or an operation
+	3)Outside scope of the system
+	4)Meta language- Meta language is words or symbols for talking about language itself.
+	5)An attribute- Nouns that describe properties of other nouns
+
+	Applying the rules to the nouns:
+
+	
+	1. Online book shop
+		Outside scope of the system because this is the system itself.
+	
+	
+	2. Books 3. Magazines 4. CDs
+		These three are specific types of products. According to the attributes rule these are not classes.
+	
+	5. Products
+		This is a general term for items sold. Product is a class.
+
+	
+	6. Price 7. Title 8. Author 9. Number of pages 10.Artists 11.Type
+		These are attributes of products. Because of that these are rejected.
+
+	12.Customers
+		Represents the users of the system. Customer is a class.
+
+	13.Orders
+		order is a class.
+	
+	14.Shipments
+		This represents the delivery process. It's a class.
+	
+	15.Store
+		This is a attribute of the system.
+
+	16.Personal customers 17.Business customers
+		These are types of customers. Because of that these are not classes.(Redundant)
+	
+	18.Invoice
+		This represents a billing document. It is a class.
+
+	19.Payment
+		This represents a transaction. It's a class.
+
+	20.Credit card
+		This is a payment method. Not a class.
+	
+	
+	21.Contact information 22.Personal information
+		These are attributes of customers.
+
+	23.Authentication
+		This is a process, not a class.
+
+	24.Invoicing
+		This is a process, not a class.
+
+	25.Reports
+		This represents a summary of data. It's a class.
+
+	26.Delivery
+		This is part of the shipment process. Not a class.
+
+Final Set of Potential Classes:
+
+	*Product 
+	*Customer 
+	*Order
+	*Shipment
+	*Payment
+	*Invoice
+	*Report
+	
+	
